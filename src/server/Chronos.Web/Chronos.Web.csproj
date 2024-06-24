@@ -19,4 +19,12 @@
       <ProjectReference Include="..\Chronos.ServiceDefaults\Chronos.ServiceDefaults.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MinimalApi.Endpoint" Version="1.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Endpoints\" />
+    </ItemGroup>
+
 </Project>
