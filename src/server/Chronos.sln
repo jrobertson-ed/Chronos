@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.Web", "Chronos.Web\Chronos.Web.csproj", "{AB198E48-CB56-4B45-8215-9C0A3871A5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.ServiceDefaults", "Chronos.ServiceDefaults\Chronos.ServiceDefaults.csproj", "{B07C3C84-7981-465E-A8B3-F9024FEBEB85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.AppHost", "Chronos.AppHost\Chronos.AppHost.csproj", "{153227D8-6E2C-43E5-ABCF-801F7ADE20E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB198E48-CB56-4B45-8215-9C0A3871A5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB198E48-CB56-4B45-8215-9C0A3871A5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB198E48-CB56-4B45-8215-9C0A3871A5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB198E48-CB56-4B45-8215-9C0A3871A5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07C3C84-7981-465E-A8B3-F9024FEBEB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07C3C84-7981-465E-A8B3-F9024FEBEB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07C3C84-7981-465E-A8B3-F9024FEBEB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07C3C84-7981-465E-A8B3-F9024FEBEB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153227D8-6E2C-43E5-ABCF-801F7ADE20E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153227D8-6E2C-43E5-ABCF-801F7ADE20E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153227D8-6E2C-43E5-ABCF-801F7ADE20E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153227D8-6E2C-43E5-ABCF-801F7ADE20E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
