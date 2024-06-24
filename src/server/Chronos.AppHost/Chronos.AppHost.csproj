@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Chronos.Bus\Chronos.Bus.csproj" />
       <ProjectReference Include="..\Chronos.Web\Chronos.Web.csproj" />
     </ItemGroup>
 
