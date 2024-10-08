@@ -4,7 +4,7 @@ var db = builder.AddPostgres("chronos-db")
     .WithDataVolume()
     .AddDatabase("Chronos");
 
-var api = builder.AddProject<Projects.Chronos_Web>("chronos-api")
+var api = builder.AddProject<Projects.Chronos_Api>("chronos-api")
     .WithExternalHttpEndpoints()
     .WithReference(db);
 

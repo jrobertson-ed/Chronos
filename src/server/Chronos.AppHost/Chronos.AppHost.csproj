@@ -10,7 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Chronos.Bus\Chronos.Bus.csproj" />
-      <ProjectReference Include="..\Chronos.Web\Chronos.Web.csproj" />
+      <ProjectReference Include="..\Chronos.Api\Chronos.Api.csproj" />
     </ItemGroup>
 
     <ItemGroup>

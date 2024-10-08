@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.Web", "Chronos.Web\Chronos.Web.csproj", "{AB198E48-CB56-4B45-8215-9C0A3871A5B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.Api", "Chronos.Api\Chronos.Api.csproj", "{AB198E48-CB56-4B45-8215-9C0A3871A5B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronos.ServiceDefaults", "Chronos.ServiceDefaults\Chronos.ServiceDefaults.csproj", "{B07C3C84-7981-465E-A8B3-F9024FEBEB85}"
 EndProject

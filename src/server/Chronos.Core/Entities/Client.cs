@@ -1,9 +1,8 @@
-using System;
-
 namespace Chronos.Core.Entities
 {
-    public class Client : TenantEntity<Guid>
+    public class Client : TenantEntity
     {
-        public string Name { get; set; } = null!;
+        public required string Name { get; set; }
+        public required Address Address { get; set; }
     }
 }

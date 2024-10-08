@@ -1,10 +1,11 @@
-﻿using System;
-
-namespace Chronos.Core.Entities
+﻿namespace Chronos.Core.Entities
 {
-    public class TimesheetEntry : TenantEntity<Guid>
+    public class TimesheetEntry : TenantEntity
     {
-        public Guid ClientId { get; set; }
+        public required Guid ClientId { get; set; }
         public Client? Client { get; set; }
+        public required DateTime DateTimeUtc { get; set; }
+        public required int DurationSeconds { get; set; }
+        public string? Comment { get; set; }
     }
 }
